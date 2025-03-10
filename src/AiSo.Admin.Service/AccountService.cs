@@ -2,11 +2,9 @@
 using AiSo.Admin.Service.Dtos.JwtToken;
 using AiSo.Admin.Service.Dtos.User;
 using AiUo;
-using AiUo.CliWrap;
 using AiUo.Data.SqlSugar;
 using AiUo.Net;
 using AiUo.Security;
-using Microsoft.IdentityModel.Tokens;
 
 namespace AiSo.Admin.Service;
 
