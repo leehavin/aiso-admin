@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="PermissionService.cs" />
+    <Compile Remove="SysDataAuthorityCustomService.cs" />
+    <Compile Remove="SysDataAuthorityService.cs" />
+    <Compile Remove="SysDictionaryService.cs" />
+    <Compile Remove="SysFileService.cs" />
+    <Compile Remove="SysFunctionService.cs" />
+    <Compile Remove="SysLocaleService.cs" />
+    <Compile Remove="SysMenuService.cs" />
+    <Compile Remove="SysOperationLogService.cs" />
+    <Compile Remove="SysOrganizationService.cs" />
+    <Compile Remove="SysPostService.cs" />
+    <Compile Remove="SysRoleMenuFunctionService.cs" />
+    <Compile Remove="SysRoleService.cs" />
+    <Compile Remove="SysServerService.cs" />
+  </ItemGroup>
+
+</Project>
