@@ -1,7 +1,20 @@
 ﻿namespace AiSo.Admin.Service.Dtos.User;
 
-public class LoginRequestDto
+/// <summary>
+/// 登录返回对象
+/// </summary>
+public class LoginResponse
 {
+    /// <summary>
+    /// 用户主键
+    /// </summary>
+    public string UserId { get; set; }
+
+    /// <summary>
+    /// 用户昵称
+    /// </summary>
+    public string Nickname { get; set; }
+
     /// <summary>
     /// 用户名
     /// </summary>
@@ -18,7 +31,7 @@ public class LoginRequestDto
     public string Mobile { get; set; }
 
     /// <summary>
-    /// 密码
+    /// Token
     /// </summary>
-    public string Password { get; set; }
+    public string JwtToken { get; set; }
 }

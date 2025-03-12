@@ -15,6 +15,7 @@ namespace AiSo.Admin.WebApi.Controllers;
 public class AccountController : AiUoControllerBase
 {
     private readonly AccountService accountSvc = new();
+     
 
     /// <summary>
     /// 登录
@@ -28,7 +29,7 @@ public class AccountController : AiUoControllerBase
     /// <returns></returns>
     [HttpPost]
     [AllowAnonymous]
-    public async Task<LoginResponseDto> Login(LoginRequestDto loginDto)
+    public async Task<LoginResponse> Login(LoginRequest loginDto)
     {
         return await accountSvc.Login(loginDto);
     }

@@ -13,7 +13,7 @@ public partial class SysUserEntity
     /// 主键
     /// </summary>
     [SugarColumn(ColumnName = "Id", IsPrimaryKey = true)]
-    public long Id { get; set; }
+    public string Id { get; set; }
 
     /// <summary>
     /// 账户名称

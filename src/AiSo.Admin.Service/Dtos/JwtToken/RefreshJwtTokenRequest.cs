@@ -1,6 +1,6 @@
 ﻿namespace AiSo.Admin.Service.Dtos.JwtToken;
 
-public class RefreshJwtTokenRequestDto
+public class RefreshJwtTokenRequest
 {
     /// <summary>
     /// Token

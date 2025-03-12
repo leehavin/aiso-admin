@@ -8,7 +8,7 @@ namespace AiSo.Admin.Repository;
 [SugarTable("sys_role_menu_function")]
 public class SysRoleMenuFunctionEntity 
 {
-    public Guid RoleId { get; set; }
+    public long RoleId { get; set; }
     public int MenuId { get; set; }
-    public Guid MenuFunctionId { get; set; }
+    public long MenuFunctionId { get; set; }
 }

@@ -8,6 +8,8 @@ namespace AiSo.Admin.Repository;
 [SugarTable("sys_menu_function")]
 public class SysMenuFunctionEntity 
 {
+    public long Id { get; set; }
+
     /// <summary>
     /// 序号
     /// </summary>
