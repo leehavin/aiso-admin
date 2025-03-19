@@ -56,7 +56,7 @@ public class AccountService
             throw new CustomException("LOGIN_ERROR", "密码错误");
 
         var jwtToken = JwtUtil.CreateJwtToken(user.Id, string.Empty, string.Empty);
-        return new LoginResponse()
+        return new LoginResponse
         {
             UserId = user.Id,
             Nickname = user.Nickname,
