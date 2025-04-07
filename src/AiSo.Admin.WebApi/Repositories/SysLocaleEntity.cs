@@ -1,4 +1,4 @@
-﻿namespace AiSo.Admin.Repository;
+﻿namespace AiSo.Admin.WebApi.Repositories;
 
 /// <summary>
 /// 本地化

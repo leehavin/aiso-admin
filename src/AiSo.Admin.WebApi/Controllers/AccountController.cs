@@ -1,5 +1,5 @@
-﻿using AiSo.Admin.Service;
-using AiSo.Admin.Service.Dtos.User;
+﻿using AiSo.Admin.Services;
+using AiSo.Admin.WebApi.Models.Dtos.User;
 using AiUo.AspNet;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;

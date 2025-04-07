@@ -1,7 +1,7 @@
-﻿using AiSo.Admin.Repository;
+﻿using AiSo.Admin.WebApi.Repositories;
 using AiUo.Data.SqlSugar;
 
-namespace AiSo.Admin.Service;
+namespace AiSo.Admin.Services;
 
 public class MenuService
 {

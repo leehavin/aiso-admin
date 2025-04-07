@@ -1,13 +1,13 @@
-﻿using AiSo.Admin.Repository;
-using AiSo.Admin.Service.Dtos.JwtToken;
-using AiSo.Admin.Service.Dtos.User;
+﻿using AiSo.Admin.WebApi.Models.Dtos.JwtToken;
+using AiSo.Admin.WebApi.Models.Dtos.User;
+using AiSo.Admin.WebApi.Repositories;
 using AiUo;
 using AiUo.Data.SqlSugar;
 using AiUo.Net;
 using AiUo.Security;
 using AiUo.Text;
 
-namespace AiSo.Admin.Service;
+namespace AiSo.Admin.Services;
 
 public class AccountService
 {
@@ -78,7 +78,7 @@ public class AccountService
         if (string.IsNullOrEmpty(dto.JwtToken))
             new Exception("JwtToken不能为空");
 
-        if (dto.UserId is 0L)
+        if (string.IsNullOrWhiteSpace(dto.UserId))
             new Exception("UserId不能为空");
 
         var jwt = JwtUtil.ReadJwtToken(dto.JwtToken, string.Empty);

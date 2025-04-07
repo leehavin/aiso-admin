@@ -1,6 +1,6 @@
 ﻿using SqlSugar;
 
-namespace AiSo.Admin.Repository;
+namespace AiSo.Admin.WebApi.Repositories;
 
 /// <summary>
 /// 数据权限主表

@@ -1,4 +1,4 @@
-﻿namespace AiSo.Admin.Service.Dtos.JwtToken;
+﻿namespace AiSo.Admin.WebApi.Models.Dtos.JwtToken;
 
 public class RefreshJwtTokenRequest
 {
@@ -10,5 +10,5 @@ public class RefreshJwtTokenRequest
     /// <summary>
     /// 用户主键
     /// </summary>
-    public long UserId { get; set; }
+    public string UserId { get; set; }
 }

@@ -1,6 +1,6 @@
 ﻿using SqlSugar;
 
-namespace AiSo.Admin.Repository;
+namespace AiSo.Admin.WebApi.Repositories;
 
 /// <summary>
 /// 用户与角色绑定

@@ -1,6 +1,6 @@
 ﻿using SqlSugar;
 
-namespace AiSo.Admin.Repository;
+namespace AiSo.Admin.WebApi.Repositories;
 
 /// <summary>
 /// 菜单与功能绑定

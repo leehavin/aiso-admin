@@ -1,4 +1,4 @@
-﻿namespace AiSo.Admin.Service.Dtos.User;
+﻿namespace AiSo.Admin.WebApi.Models.Dtos.User;
 
 public class RegisterRequest
 {

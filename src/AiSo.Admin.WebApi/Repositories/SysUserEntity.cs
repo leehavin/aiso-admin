@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using SqlSugar;
 
-namespace AiSo.Admin.Repository;
+namespace AiSo.Admin.WebApi.Repositories;
 
 /// <summary>
 /// 系统账号
